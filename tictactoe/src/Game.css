@@ -1,0 +1,26 @@
+
+.square {
+    color: white;
+    background: yellowgreen;
+    min-height: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.game-info {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
